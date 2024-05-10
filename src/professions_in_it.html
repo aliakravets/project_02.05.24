@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./styles.css" />
-    <title>JavaScript Sandbox</title>
-    <meta charset="UTF-8" />
+    <head>
+      <title>Професії в ІТ</title>
+      <meta charset="UTF-8" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link rel="stylesheet" href="./styles.css" />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet"
+      />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet"
+      />
+    </head>
   </head>
   <body>
     <header class="header">
@@ -79,8 +81,65 @@
     </header>
     <div class="container1100">
       <div class="section">
-        <div class="top">
+        <div class="section_top">
           <h1 class="main_title">Види професій в сфері IT</h1>
+          <table class="table">
+            <tr>
+              <th>1.</th>
+              <th>людина - знакова система</th>
+              <th>(Максим)</th>
+            </tr>
+            <tr>
+              <th>2.</th>
+              <th>людина - технiка</th>
+              <th>(Артем)</th>
+            </tr>
+            <tr>
+              <th>3.</th>
+              <th>людина -  людина</th>
+              <th>(Анастасія)</th>
+            </tr>
+            <tr>
+              <th>4.</th>
+              <th>людина - Техніка</th>
+              <th>(Техніка)</th>
+            </tr>
+            <tr>
+              <th>5.</th>
+              <th>людина - художній образ</th>
+              <th>(Альбіна)</th>
+            </tr>
+            <tr>
+              <th>6.</th>
+              <th>людина - знакова система</th>
+              <th>(Денис)</th>
+            </tr>
+            <tr>
+              <th>7.</th>
+              <th>людина - знакова система</th>
+              <th>(Влад)</th>
+            </tr>
+            <tr>
+              <th>8.</th>
+              <th>людина - техніка</th>
+              <th>(sǫʟʜs)</th>
+            </tr>
+            <tr>
+              <th>9.</th>
+              <th>людина - Техніка</th>
+              <th>(Даниїл)</th>
+            </tr>
+            <tr>
+              <th>10.</th>
+              <th>людина - знакова систем</th>
+              <th>(Арсен)</th>
+            </tr>
+            <tr>
+              <th>11.</th>
+              <th>людина -  знакова система</th>
+              <th>(Богдан)</th>
+            </tr>
+          </table>
         </div>
         <div class="bottom">
           <div class="box">
@@ -108,29 +167,54 @@
           </div>
         </div>
       </div>
-      <div class="">
-        <div class="">
-          <div class="left">
+      <div class="section_bot">
+        <div class="top">
+          <div class="left_img">
             <img class="img_front_end" src="./img/front_end.jpg" />
           </div>
           <div class="right">
-            <h2 class="section_title">Front End розробник</h2>
-            <p>
+            <h2 class="title">Front End розробник</h2>
+            <p class="title_p">
               Front End розробник це кодер який робить основний вигляд сайту і
               взаємодію з ним.
             </p>
           </div>
         </div>
-        <div class="">
+        <div class="bot">
           <div class="left">
-            <h2 class="section_title">IT-рекрутер</h2>
-            <p>
+            <h2 class="title">IT-рекрутер</h2>
+            <p class="bot_title_p">
               IT-рекрутер це людина яка перевіряє і наймає на роботу
               спеціалістів
             </p>
           </div>
-          <div class="right">
+          <div class="right_img">
             <img class="img_recrut" src="./img/it_recrut.jpg" />
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="bottom">
+          <div class="box">
+            <img class="job" src="./img/data_analit.jpg" />
+            <h3 class="text_up">Дата-аналітик</h3>
+            <p class="main_text">
+              Шукає, вивчає і фільтрує інформацію з різних джерел
+            </p>
+          </div>
+          <div class="box">
+            <img class="job" src="./img/market.jpg" />
+            <h3 class="text_up">Digital маркетолог</h3>
+            <p class="main_text">
+              вивчає ринок продукції яку він буде продавати і просуває його в маси
+            </p>
+          </div>
+          <div class="box">
+            <img class="job" src="./img/ivent.jpg" />
+            <h3 class="text_up">Event-manager</h3>
+            <p class="main_text">
+              Організовує різні заходи для розважання колективу щоб людямбуло легше працювати
+            </p>
           </div>
         </div>
       </div>
@@ -152,46 +236,102 @@
     </footer>
     <script src="./index.mjs" type="module"></script>
     <style>
-      .job {
-        width: 250px;
-        height: 300px;
-        border-radius: 10px;
-      }
 
-      .img_front_end {
-        width: 450px;
-        border-radius: 10px;
-      }
+        .job{
+            width: 250px;
+            height: 300px;
+            border-radius: 10px;
+        }
 
-      .img_recrut {
-        width: 450px;
-        border-radius: 10px;
-      }
-      .section {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        height: 700px;
-      }
+        .img_front_end{
+            width: 450px;
+            border-radius: 10px;
+        }
 
-      .bottom {
-        margin-top: 60px;
-        width: 100%;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-      }
+        .img_recrut{
+            width: 450px;
+            border-radius: 10px;
+        }
+        
+        .section{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
 
-      .box {
-        width: 250px;
-        height: 300px;
-      }
+        .bottom{
+          margin-top: 70px;
+          width: 100%;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+        }
 
-      .text_up {
-        font-size: 23px;
-        font-weight: 700;
-        margin-bottom: 10px;
-      }
+        .box{
+          width: 300px;
+          height: 530px;
+        }
+
+        .text_up{
+          font-size: 23px;
+          font-weight: 700;
+          margin-bottom: 10px;
+        }
+
+        .section_top{
+          display: flex;
+          flex-direction: column;
+        }
+
+        .section_bot{
+          margin-top: 10px;
+          margin-bottom: 20px;
+          background-color: #0a2640;
+          color: white;
+          padding: 20px;
+          border-radius: 15px;
+        }
+
+        .top{
+          display: flex;
+          justify-content: space-between;
+        }
+
+        .table{
+          margin-top: 50px;
+          background-color: #0a2640;
+          color: white;
+          padding: 20px;
+          border-radius: 15px;
+        }
+
+        .right, .left{
+          width: 450px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+        }
+
+        .title{
+          text-align: center;
+          margin-bottom: 20px;
+        }
+        .title_p{
+          font-weight: 600;
+          font-size: 30px;
+        }
+
+        .bot{
+          margin-top: 100px;
+          display: flex;
+          justify-content: space-between;
+        }
+        
+        .bot_title_p{
+          font-weight: 600;
+          font-size: 30px;
+          text-align: end;
+        }
     </style>
   </body>
 </html>
